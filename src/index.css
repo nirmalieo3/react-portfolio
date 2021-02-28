@@ -41,3 +41,12 @@ img {
     font-size: 25px;
     font-weight: bold;
 }
+.color2{
+    background: linear-gradient(89deg, #c740ac 0%, #2baebd 100%);
+    box-shadow: 5px 5px 5px grey;
+    color:black;
+    font-size: 25px;
+}
+.flex{
+    color:black;
+}

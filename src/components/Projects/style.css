@@ -1,0 +1,50 @@
+.project-section {
+    position: relative ;
+    padding-top: 70px;
+    padding-bottom: 30px ;
+  }
+  
+  .project-card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px ;
+    padding-right: 25px ;
+    height: auto ;
+  }
+  
+  .project-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) ;
+    color: white ;
+    background-color: transparent !important;
+   /* opacity: 0.9 !important;*/
+    transition: all 0.5s ease 0s ;
+    height: 100% ;
+  }
+  .project-card-view:hover {
+    transform: scale(1.02) ;
+    overflow: hidden ;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) ;
+  }
+  .card-img-top {
+    padding: 0 30px;
+     
+  }
+  .project-heading {
+    color: white ;
+    font-size: 2.3em ;
+    font-weight: 500;
+    
+   
+  }
+  .center{
+    text-align: center;
+  }
+  .p{
+      font-size: 22px;
+  }
+  .img1{
+      width: 70px;
+      height:500px;
+      border-radius: 10%;
+                   
+  }
