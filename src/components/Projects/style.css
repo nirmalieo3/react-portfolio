@@ -25,10 +25,15 @@
     overflow: hidden ;
     box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) ;
   }
-  .card-img-top {
+  /*.card-img-top {
     padding: 0 30px;
      
+  }*/
+  .card-img-top {
+    padding: 0 40px !important;
+    border-radius: 10px !important;
   }
+
   .project-heading {
     color: white ;
     font-size: 2.3em ;
@@ -42,9 +47,9 @@
   .p{
       font-size: 22px;
   }
-  .img1{
+  /*.img1{
       width: 70px;
       height:500px;
       border-radius: 10%;
                    
-  }
+  }*/
