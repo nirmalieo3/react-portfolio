@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Particle from '../Particle'
 import "./style.css";
 import mob2 from "../../Assets/Projects/mob2.png";
 import mob1 from "../../Assets/Projects/mob1.png";
@@ -13,6 +14,7 @@ import mob3 from "../../Assets/Projects/mob3.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
+      <Particle />
       <div class="center">
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
