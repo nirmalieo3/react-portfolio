@@ -9,6 +9,7 @@ import mob1 from "../../Assets/Projects/mob1.png";
 import img4 from "../../Assets/Projects/img4.png";
 import mob5 from "../../Assets/Projects/mob5.png";
 import mob3 from "../../Assets/Projects/mob3.png";
+import la from "../../Assets/Projects/la.png";
 
 
 function Projects() {
@@ -25,6 +26,15 @@ function Projects() {
       </div>
       <Container>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={la}
+              title="Laravel-app"
+              description="This is the Laravel course project That I did with LabForTraining.
+                  For this project I used Mysql database.Also used Infyom to create tables and modules. "
+              link="https://sheltered-forest-76465.herokuapp.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mob2}

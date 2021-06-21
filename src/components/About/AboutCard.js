@@ -11,11 +11,11 @@ function AboutCard() {
           <p style={{ textAlign: "justify", color:"black" }}>
             Hi Everyone, I am  <span className="purple">Warnakulasuriya Nirmalie </span> 
              live in <span className="purple">Rome Italy .</span>
-            <br />I am a Fornt end developer.
+            <br />I am a Full Stack Web Developer.
             <br />
             <br />
             I have a good knowledge of Html5, CSS, Java Script, Angular8+, React Js,
-            Webpack, Bootstrap, Particle Js, Node Js, and Git.
+            Webpack, Bootstrap, Particle Js, Node Js, PHP, MySql, Laravel and Git.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -26,8 +26,7 @@ function AboutCard() {
             <li>Travelling </li>
             <li > Teaching </li>
           </ul>
-
-          <p style={{ marginBlockEnd: 0, color: "black" }}>
+            <p style={{ marginBlockEnd: 0, color: "black" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer style={{color: "black" }} className="blockquote-footer">Soumyajit</footer>

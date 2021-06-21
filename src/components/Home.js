@@ -22,7 +22,7 @@ function Home (){
             <Logo />
               {/*<img src={image} alt="monster" className="absolute object-cover w-full h-full"/>*/}
             <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64">
-                <h1 className="flex-item2">Hello I am Nirmalie and I am a Front-End Web Developer.</h1>
+                <h1 className="flex-item2">Hello I am Nirmalie and I am a Full Stack Web Developer.</h1>
             </section>
         </main>
     )
