@@ -111,6 +111,10 @@ function Resume() {
               subject=" Subjects: Chemistry, Physics, Biology: 1981 - 1982"
             />
          <h3 className="resume-title tit">Certificates</h3>
+         <Resumecontent
+              title="Front-End Developer Certificate LabForTraining 2021"
+             
+            />   
             <Resumecontent
               title="Front-End Developer 2019 Career Course Udemy - 2020"
              
