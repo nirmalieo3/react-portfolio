@@ -29,7 +29,11 @@ function Projects() {
             <ProjectCard
               imgPath={mob2}
               title="Webpack-app"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              description="I followed Odin Projects to create this App using Webpack.
+              When using webpack, index.js file in src folder and index.html file in dist folder
+              has been created. Webpack config.js file also created. Contents of each tab kept inside
+              of it's own module which exports a function.
+              This function creates a div element that appends to the DOM. "
               link="https://nirmalieo3.github.io/webpack-page/"
             />
           </Col>
@@ -38,7 +42,9 @@ function Projects() {
             <ProjectCard
               imgPath={mob1}
               title="Json-app"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              description="This App was created recently when I was following Java Script course
+              at LabFor Trainning Institution in Rome. I made a Json file as a database in another Github repository
+              and used get request to fetch data from the json file."
               link="https://nirmalieo3.github.io/json-app/"
             />
           </Col>
@@ -47,7 +53,9 @@ function Projects() {
             <ProjectCard
               imgPath={mob3}
               title="Angular-App"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              description="This is my first Angular App created using Angular 8. I used this app to teach students in the high school.
+              Angular material and bootstrap also used for this app. Scrimba online tutorial and Udemi online course has been helpful for creating
+              this App."
               link="https://mrs-nirmalie-s-ict-class.web.app/"
             />
           </Col>
@@ -56,7 +64,9 @@ function Projects() {
             <ProjectCard
               imgPath={mob5}
               title="Lab for food Delivery"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              description="This App has been created recently for my Front end web development course with LabFor Trainnig in Rome.
+              I used Google map to get the location of restaurents. Also used jQuery fancy box to create the food galary.
+              Using vanila Java Script shopping cart has been created. "
               link="https://nirmalieo3.github.io/FoodDeliveryLab/"
             />
           </Col>
@@ -65,7 +75,8 @@ function Projects() {
             <ProjectCard
               imgPath={img4}
               title="Colma Academy"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              description="This App was created using Codecademy online tutorials. This is the capstone project for responsive web design in Codecademy.
+              I used css flex box in this project. I also used media query to make the app responsive."
               link="https://nirmalieo3.github.io/ColmaAcademy/"
             />
           </Col>

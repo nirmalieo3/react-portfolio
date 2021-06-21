@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-
+import pdf from "../../Assets/CV.pdf";
 import Resumecontent from "./ResumeContent";
 import "./resume.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,14 +12,23 @@ function Resume() {
    
   return (
     <Container fluid className="resume-section">
-     
-      <Container>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-         
+       <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button variant="primary" href={pdf} target="_blank">
+            <i className="fas fa-download">&nbsp;</i>Download CV
+          </Button>
         </Row>
+      <Container>
+      
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title tit">Recent Projects</h3>
+            <Resumecontent
+              title="Laravel, MySql Project:" 
+              subject= "LabForTraining class Project : 2021"
+            
+              link= "https://sheltered-forest-76465.herokuapp.com/"
+            
+            />
             <Resumecontent
               title="Json Project:" 
               subject= "using a Json file from external website get data. : 2020"
@@ -78,14 +87,19 @@ function Resume() {
           <Col md={6} className="resume-right">
           <h3 className="resume-title tit">Languages and Technologies</h3>
             <Resumecontent
-              title="JavaScript, React Js, Angular8+, Css, Html5, Github, Node Js, Jquery, Webpack, 
+              title="PHP, MySql, JavaScript, React Js, Angular8+, Css, Html5, Github, Node Js, Jquery, Webpack, 
               Responsive webdesign, Microsoft Office, Visual Studio Code"
               subject= "Italian, English"
             />        
             <h3 className="resume-title tit">Education</h3>
             <Resumecontent
-              title="LabFor Trainnig Institute: Via Pasquale Revoltella,85 "
-              subject="Front End Web Development Course:  2020 - Present"
+              title="LabFor Training Institute: Via Pasquale Revoltella,85 "
+              subject="Front End Web Development Course:  2020 - 2021 Html,CSS, Javascript, JQuery,Agular and React"
+                       
+            />
+             <Resumecontent
+              title="LabFor Training Institute: Via Pasquale Revoltella,85 "
+              subject="Back End Web Development Course:  2020 - 2021 PHP, MySql and Laravel"
                        
             />
             <Resumecontent
@@ -110,7 +124,9 @@ function Resume() {
               
           </Col>
         </Row>
+        
         <Row style={{ justifyContent: "center", position: "relative" }}>
+         
         </Row>
       </Container>
     </Container>

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+
 function ResumeContent(props) {
   return (
     <div className="resume-item">
