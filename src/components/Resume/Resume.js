@@ -93,11 +93,6 @@ function Resume() {
             />        
             <h3 className="resume-title tit">Education</h3>
              
-              <Resumecontent
-              title="LabFor Training Institute:   Orangee srl Via Muzio Clementi, 74 00193 Roma"
-              subject="Back End Web Development Course:  2021 - 2021 Java, javaSE, Spring boot"
-                       
-            />
             <Resumecontent
               title="LabFor Training Institute: Via Pasquale Revoltella,85 "
               subject="Front End Web Development Course:  2020 - 2021 Html,CSS, Javascript, JQuery,Agular and React"
